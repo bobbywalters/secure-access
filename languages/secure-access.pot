@@ -13,8 +13,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: __;esc_html__\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: ../php\n"
+"X-Poedit-SearchPath-0: ../includes\n"
 
-#: ../php/SecureAccess.php:98
+#: ../includes/class-secure-access.php:174
 msgid "Please log in to view this site."
 msgstr ""

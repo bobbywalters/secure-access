@@ -5,10 +5,15 @@
  * Description: Secure your site by requiring users to log in.
  * Author: Bobby Walters
  * Author URI: https://github.com/bobbywalters
- * Version: 1.0.0
+ * Version: 1.0.1
  * Text Domain: secure-access
  * Domain Path: /languages
  * License: GPLv2
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * @link https://github.com/bobbywalters/secure-access
+ * @package SecureAccess
+ * @since 1.0.0
  */
 
 /*
@@ -29,8 +34,8 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
-defined('WPINC') or die('No direct access.');
+defined( 'WPINC' ) or die( 'No direct access.' );
 
-require 'php/SecureAccess.php';
+require 'includes/class-secure-access.php';
 
-add_action('plugins_loaded', array(new SecureAccess\SecureAccess(), 'pluginsLoaded'));
+$secure_access = new SecureAccess;
