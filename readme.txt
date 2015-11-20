@@ -2,7 +2,7 @@
 Contributors: bobbywalters
 Tags: login, private, security, signin
 Requires at least: 3.6.0
-Tested up to: 4.3
+Tested up to: 4.4
 Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
