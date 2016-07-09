@@ -2,7 +2,7 @@
 Contributors: bobbywalters
 Tags: login, private, security, signin
 Requires at least: 3.6.0
-Tested up to: 4.5
+Tested up to: 4.6
 Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -29,10 +29,12 @@ Feeds are secured as well.
 == Changelog ==
 
 = 1.0.1 =
+
 2015-08-30
 
 * NEW: Using [classes plugin boilerplate](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate).
 * FIX: Cleaned up PHPCS WordPress standard sniffs.
 
 = 1.0.0 =
+
 Initial release.
